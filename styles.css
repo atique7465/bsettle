@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #1e3a8a;
+    color: #fff;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f1f5f9;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #1e3a8a;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #1e3a8a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #3b82f6;
+}
+
+/* Footer Section */
+/* Footer Section */
+.footer {
+    padding: 20px;
+    background: #111827;
+    color: #fff;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.footer form {
+    max-width: 500px;
+    margin: 0 auto; /* Center the form */
+    text-align: left;
+}
+
+.footer label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.footer input,
+.footer textarea {
+    width: 100%; /* Take full width of the form */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3b82f6;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.footer input:focus,
+.footer textarea:focus {
+    border-color: #1e3a8a;
+    outline: none;
+}
+
+.footer button {
+    display: block;
+    width: 100%; /* Ensure button spans the full width */
+    max-width: 200px; /* But limit its maximum size */
+    margin: 0 auto; /* Center the button */
+    padding: 10px;
+    background: #1e3a8a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.footer button:hover {
+    background: #3b82f6;
+}
